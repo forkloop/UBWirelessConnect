@@ -1,8 +1,10 @@
 <resources>
 
-	<string name="app_name">UBWirelessConnect</string>
-	<string name="hello_world">Hello world!</string>
-	<string name="menu_settings">Settings</string>
-	<string name="title_activity_main">MainActivity</string>
-
+    <string name="app_name">UBWirelessConnect</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">UBWirelessConnectActivity</string>
+    <string name="ub_name_hint">ub name</string>
+    <string name="password_hint">password</string>
+    <string name="confirm">Confirm</string>
+    <string name="config_hint">Type your ub name and password below.</string>
 </resources>
