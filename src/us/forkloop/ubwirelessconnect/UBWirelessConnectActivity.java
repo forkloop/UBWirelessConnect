@@ -6,6 +6,7 @@ import android.appwidget.AppWidgetManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -26,6 +27,7 @@ public class UBWirelessConnectActivity extends Activity implements OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ub_wireless_connect_config);
 
+        Log.d(getClass().getSimpleName(), "Start configuration activity...");
         setResult(RESULT_CANCELED);
         appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;
 
